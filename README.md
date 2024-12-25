@@ -18,10 +18,21 @@ LocalMind is a Retrieval-Augmented Generation (RAG) application that uses TF-IDF
 - PyPDF2
 - numpy
 - litellm
+- ollama
 
 ## Installation
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/localmind.git
+   git clone https://github.com/ayushroy64/localmind.git
    cd localmind
+2. Install requirements:
+   ```bash
+   pip install -r requirements.txt
+3. Ollama:
+   You'll need to download ollama (https://ollama.com/download) and run the following command in an administrator (sudo) terminal -
+   ```bash
+   ollama pull llama3
+4. Run the app:
+   ```bash
+   streamlit run local_RAG.py
